@@ -24,4 +24,5 @@ return {
     ft = { "javascript", "typescript", "javascriptreact", "typescriptreact" },
     opts = function() return { server = require("astronvim.utils.lsp").config "denols" } end,
   },
+  { require "astrocommunity.pack.typescript-deno.dap" },
 }
