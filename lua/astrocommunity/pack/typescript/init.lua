@@ -142,5 +142,4 @@ return {
     event = "User AstroFile",
     config = function() require("tsc").setup() end,
   },
-  { require "astrocommunity.pack.typescript.dap" },
 }
